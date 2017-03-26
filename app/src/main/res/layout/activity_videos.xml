@@ -11,17 +11,6 @@
     tools:context="com.example.autumn.monkeyseemonkeydo.VideosActivity">
     android:background = "@color/colorLightBlue"
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="85dp"
-        android:layout_height="22dp"
-        android:text="@string/default_text"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="219dp"
-        android:layout_below="@+id/videoView5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
-
     <VideoView
         android:id="@+id/videoView5"
         android:layout_width="322dp"
@@ -30,17 +19,6 @@
         tools:layout_editor_absoluteY="27dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="Replay"
-        android:textColor = "@color/colorWhite"
-        android:background = "@color/colorDarkBlue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/replayBtn"
-        android:layout_below="@+id/textView3"
-        android:layout_alignStart="@+id/textView3"
-        android:layout_marginTop="23dp" />
 
     <Button
         android:id="@+id/translateAgain"
@@ -54,5 +32,28 @@
         android:layout_marginTop="22dp"
         android:layout_below="@+id/replayBtn"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Replay"
+        android:textColor = "@color/colorWhite"
+        android:background = "@color/colorDarkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/replayBtn"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:text="@string/default_text"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="219dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/videoView5"
+        android:layout_alignStart="@+id/translateAgain" />
 
 </RelativeLayout>

@@ -3,7 +3,7 @@
     <string-array name="sign_options">
         <item>Hello</item>
         <item>What is your name</item>
-        <item>My name is</item>
+        <item>My name</item>
         <item>Nice to meet you</item>
         <item>Again</item>
         <item>Me</item>
