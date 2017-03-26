@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Monkey See, Monkey Do</string>
+    <string-array name="sign_options">
+        <item>Hello</item>
+        <item>What is your name</item>
+        <item>My name is</item>
+        <item>Nice to meet you</item>
+        <item>Again</item>
+        <item>Me</item>
+        <item>You</item>
+        <item>Name</item>
+        <item>Same</item>
+        <item>Different</item>
+    </string-array>
+    <string name="please_enter">Please select the text you would like to translate.</string>
+    <string name="type_here">Type here!</string>
+    <string name="translate">Translate</string>
+    <string name="translate_again">Translate Again</string>
+    <string name="default_text">Translation</string>
+    <string name = "default_selection">Select One</string>
+
+</resources>
