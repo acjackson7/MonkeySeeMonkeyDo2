@@ -42,7 +42,7 @@ public class VideosActivity extends AppCompatActivity {
 
 
 
-        VideoView signVideo = (VideoView) findViewById(R.id.videoView5);
+        final VideoView signVideo = (VideoView) findViewById(R.id.videoView5);
         //MediaController mc = new MediaController(this);
         //mc.setAnchorView(signVideo);
         Uri uri = Uri.parse(url);
@@ -57,6 +57,15 @@ public class VideosActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent homeScreen = new Intent(v.getContext(),MainActivity.class);
                 startActivity(homeScreen);
+            }
+        });
+
+        final Button replayButton = (Button) findViewById (R.id.replayBtn);
+        replayButton.setOnClickListener(
+                new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                signVideo.start();
             }
         });
     }

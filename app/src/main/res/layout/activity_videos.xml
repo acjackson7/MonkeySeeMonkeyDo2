@@ -11,19 +11,6 @@
     tools:context="com.example.autumn.monkeyseemonkeydo.VideosActivity">
     android:background = "@color/colorLightBlue"
 
-    <Button
-        android:id="@+id/translateAgain"
-        android:layout_width="134dp"
-        android:layout_height="41dp"
-        android:text="@string/translate_again"
-        android:textColor = "@color/colorWhite"
-        android:background = "@color/colorDarkBlue"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="264dp"
-        android:layout_below="@+id/videoView5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="89dp" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="85dp"
@@ -42,6 +29,30 @@
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="27dp"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Replay"
+        android:textColor = "@color/colorWhite"
+        android:background = "@color/colorDarkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/replayBtn"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:id="@+id/translateAgain"
+        android:layout_width="134dp"
+        android:layout_height="41dp"
+        android:text="@string/translate_again"
+        android:textColor = "@color/colorWhite"
+        android:background = "@color/colorDarkBlue"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="264dp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/replayBtn"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
